@@ -3,23 +3,23 @@
   %head
     %meta{:charset => "utf-8"}
     %base{:href => "/blog/"}
-    %link{:href => "/stylesheets/reset.css", :rel => "stylesheet"}
-    %link{:href => "/stylesheets/grid.css", :rel => "stylesheet"}
-    %link{:href => "/stylesheets/application.css", :rel => "stylesheet"}
+    %link{:href => "stylesheets/reset.css", :rel => "stylesheet"}
+    %link{:href => "stylesheets/grid.css", :rel => "stylesheet"}
+    %link{:href => "stylesheets/application.css", :rel => "stylesheet"}
     %script{:src => "https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.js"}
-    %script{:src => "/javascripts/jquery.flux-1.2.1.js"}
-    %script{:src => "/javascripts/application.js"}
+    %script{:src => "javascripts/jquery.flux-1.2.1.js"}
+    %script{:src => "javascripts/application.js"}
   %body
     .container
       %header
         #logo
-          %a{ :href => "/" }
+          %a{ :href => "/blog/" }
             %span.first-name alex
             %span.last-name ganov
           .slogan Just another junkey developer
       #slider
         - 5.times do |slider_image|
-          %img{ :src => "/images/slider/slider-#{slider_image + 1}.jpg" }
+          %img{ :src => "images/slider/slider-#{slider_image + 1}.jpg" }
       #content
         .span-22.push-1
           {{ content }}
@@ -32,9 +32,9 @@
           %p E-mail: aganov@gmail.com
           %p.social
             %a{ :href => "http://www.facebook.com/ganov" }
-              %img{ :src => "/images/icon-facebook.png" }
+              %img{ :src => "images/icon-facebook.png" }
             %a{ :href => "http://twitter.com/aganov" }
-              %img{ :src => "/images/icon-twitter.png" }
+              %img{ :src => "images/icon-twitter.png" }
             %a{ :href => "skype:alex.ganov?chat" }
-              %img{ :src => "/images/icon-skype.png" }
+              %img{ :src => "images/icon-skype.png" }
         .clear
