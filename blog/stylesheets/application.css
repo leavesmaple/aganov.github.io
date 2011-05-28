@@ -40,15 +40,24 @@ body {
       padding: 0 0 10px;
       font: normal 22px "Lucida Grande", sans-serif; }
     body #content .post {
-      margin-bottom: 10px; }
+      margin-bottom: 10px;
+      margin: 0 0 30px 0;
+      padding: 0 0 10px 0px;
+      border-bottom: 1px solid #EEE; }
       body #content .post h2 {
         color: #303030;
-        font-size: 15px; }
+        font-size: 15px;
+        margion-bottom: 5px; }
       body #content .post p {
-        font-size: 12px; }
+        font-size: 12px;
+        margin-bottom: 10px; }
       body #content .post a, body #content .post a:hover {
         color: #303030;
         text-decoration: none; }
+      body #content .post a:hover {
+        text-decoration: underline; }
+      body #content .post img {
+        vertical-align: middle; }
       body #content .post .date {
         padding: 2px 4px;
         background: #ffffff;
