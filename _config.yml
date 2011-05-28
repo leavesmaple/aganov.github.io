@@ -1,2 +1,3 @@
 auto: true
+baseurl: /blog
 destination: ./blog
