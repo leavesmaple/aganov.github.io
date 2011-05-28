@@ -1,5 +1,8 @@
 ---
 ---
+$light-blue: #74acd4;
+$silver-href: #959595;
+$dark-text: #303030;
 body {
   background: url('../images/pattern.png') center top;
   font-family: 'Droid Sans', arial, serif;
@@ -12,7 +15,7 @@ body {
     #logo {
       font-size: 20px;
       .first-name { color: #ffffff; }
-      .last-name { color: #74acd4; }
+      .last-name { color: $light-blue; }
       .slogan {
         color: #969696;
         font-size: 10px;
@@ -54,12 +57,15 @@ body {
       border-bottom: 1px solid #EEE;
       
       h2 {
-        color: #303030;
-        font-size: 15px;
+        color: $dark-text;
+        font-size: 16px;
         margion-bottom:5px;
       }
-      p { font-size: 12px; margin-bottom:10px; }
-      a, a:hover { color: #303030; text-decoration: none; }
+      p {
+        font-size: 12px; margin-bottom:10px;
+        a, a:hover { color: $silver-href; }
+      }
+      a, a:hover { color: $dark-text; text-decoration: none; }
       a:hover { text-decoration: underline; }
       img { vertical-align: middle; }
       .date {
@@ -74,7 +80,7 @@ body {
         border-radius:3px;
       }
       .readmore {
-        color: #88BBC8;
+        color: $light-blue;
         font-size:10px;
         font-style: italic;
       }
