@@ -3,6 +3,8 @@
 $light-blue: #74acd4;
 $silver-href: #959595;
 $dark-text: #303030;
+$code-background: #F1F1F1;
+$code-border-color: #D6D6D6;
 body {
   background: url('../images/pattern.png') center top;
   font-family: 'Droid Sans', arial, serif;
@@ -51,6 +53,7 @@ body {
       font: normal 22px "Lucida Grande", sans-serif;
     }
     .post {
+      font-size: 12px;
       margin-bottom: 10px;
       margin: 0 0 30px 0;
       padding: 0 0 10px 0px;
@@ -60,14 +63,58 @@ body {
         color: $dark-text;
         font-size: 16px;
         margion-bottom:5px;
+        a, a:hover {
+          color: $dark-text;
+          &:hover { color: $dark-text; };
+        }
       }
-      p {
-        font-size: 12px; margin-bottom:10px;
-        a, a:hover { color: $silver-href; }
-      }
-      a, a:hover { color: $dark-text; text-decoration: none; }
-      a:hover { text-decoration: underline; }
+      
+      p { margin-bottom:10px; }
       img { vertical-align: middle; }
+      a, a:hover {
+        color: $silver-href;
+        text-decoration: none;
+        &:hover { color: $silver-href; text-decoration: underline; };
+      }
+      
+      // -------------------------------------------
+      // Lists
+      // -------------------------------------------
+      li ul, li ol  { margin: 0; }
+      ul, ol { margin: 0 1.5em 1.5em 0; padding-left: 1.5em; }
+      
+      ul { list-style-type: disc; }
+      ol { list-style-type: decimal; }
+      
+      dl { margin: 0 0 1.5em 0; }
+      dl dt { font-weight: bold; }
+      dd { margin-left: 1.5em;}
+      
+      // -------------------------------------------
+      // Text elements
+      // -------------------------------------------
+      blockquote { margin: 1.5em; color: #666; font-style: italic; }
+      strong, dfn { font-weight: bold; }
+      em, dfn { font-style: italic; }
+      sup, sub { line-height: 0; }
+      
+      abbr, acronym { border-bottom: 1px dotted #666; }
+      address { margin: 0 0 1.5em; font-style: italic; }
+      del { color:#666; }
+      
+      pre { margin: 1.5em 0; white-space: pre; }
+      pre, code, tt { font: 1em 'andale mono', 'lucida console', monospace; line-height: 1.5; }
+      code { background-color:$code-background; }
+      pre {
+        background-color: $code-background;
+        border-bottom:1px solid $code-border-color;
+        border-top:1px solid $code-border-color;
+        padding-left:20px;
+      }
+      
+      // -------------------------------------------
+      // Special classes
+      // -------------------------------------------
       .date {
         padding:2px 4px;
         background:#ffffff;
