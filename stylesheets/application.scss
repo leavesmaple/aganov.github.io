@@ -1,7 +1,7 @@
 ---
 ---
 body {
-  background: url('../images/pattern.png');
+  background: url('../images/pattern.png') center top;
   font-family: 'Droid Sans', arial, serif;
   
   header {
@@ -10,7 +10,7 @@ body {
     background: black;
     a, a:hover { text-decoration: none; }
     #logo {
-      font-size: 18px;
+      font-size: 20px;
       .first-name { color: #ffffff; }
       .last-name { color: #74acd4; }
       .slogan {
@@ -25,16 +25,15 @@ body {
     padding: 15px 0;
     width: 100%;
     background: black;
+    font-size: 12px;
+    font-family: 'Droid Sans', arial, serif;
     
-    h1 {
-      color: #DDD;
-      font-size: 18px;
-      font-family: 'Droid Sans', arial, serif;
-    }
-    
-    p { color: #4F4F4F; font-size: 12px; }
+    p { color: #4F4F4F; }
+    h1 { color: #DDD; font-size: 18px; }
+    h2 { color: #DDD; }
     img { text-aling: center; }
-    
+    a { color:#4F4F4F; text-decoration: none;}
+    a:hover { color:#DDD; text-decoration: underline;}
     .social {
       a, a:hover { text-decoration: none; }
     }

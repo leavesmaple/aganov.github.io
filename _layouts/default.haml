@@ -11,11 +11,13 @@
   %body
     .container
       %header
-        #logo
-          %a{ :href => "/" }
-            %span.first-name alex
-            %span.last-name ganov
-          .slogan Just another junkey developer
+        .span-8.push-1.last
+          #logo
+            %a{ :href => "/" }
+              %span.first-name alex
+              %span.last-name ganov
+            .slogan Just another junkey developer
+        .clear
       #slider
         - 5.times do |slider_image|
           %img{ :src => "/images/slider/slider-#{slider_image + 1}.jpg" }
@@ -24,11 +26,26 @@
           {{ content }}
         .clear
       %footer
-        .span-16 &nbsp;
+        .span-8 &nbsp;
+        .span-8
+          %h1 Credits
+          %p
+            %a{:href => 'http://www.flickr.com/photos/michelle-c-p/5763154955/'} michelle-c-p
+            &bull;
+            %a{:href => 'http://www.flickr.com/photos/54095178@N04/5762752610/'} 54095178@N04
+            &bull;
+            %a{:href => 'http://www.flickr.com/photos/olitee/5763207026/'} olitee
+            &bull;
+            %a{:href => 'http://www.flickr.com/photos/ana_jst/4073859907/'} ana_jst
+            &bull;
+            %a{:href => 'http://www.flickr.com/photos/rjsingson/5763497053/'} rjsingson
+            &bull;
+            %a{:href => 'https://github.com/mojombo/jekyll'} mojombo-jekyll
         .span-8.last
           %h1 Контакти
+          %h2 Apps Bakery
           %p Tel: +3598 99 05 15 95
-          %p E-mail: aganov@gmail.com
+          %p E-mail: aganov at gmail
           %p.social
             %a{ :href => "http://www.facebook.com/ganov" }
               %img{ :src => "/images/icon-facebook.png" }
