@@ -1,7 +1,6 @@
 source :rubygems
 
-# Run jekyll with ejekyll command
 gem "jekyll"
-gem "jekyll_ext"
+gem "watchr"
 gem "haml"
 gem "sass"
