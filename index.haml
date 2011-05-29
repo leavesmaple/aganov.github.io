@@ -1,13 +1,14 @@
----
-layout: default
-title: Alex's Tech Blog
----
-%h1 Постчета :)
+:plain
+  ---
+  layout: default
+  title: Alex's Tech Blog
+  ---
+%h1 Постчета
 {% for post in site.posts %}
 .post
   %h2
-    %a{ :href => "{{ site.baseurl }}{{ post.url }}" } {{ post.title }}
+    %a{ :href => "{{ post.url }}" } {{ post.title }}
   %p {{ post.content | strip_newlines | strip_html | truncatewords: 60 }}
   %span.date {{ post.date | date_to_string }}
-  %a.readmore{ :href => "{{ site.baseurl }}{{ post.url }}" } Readmore →
+  %a.readmore{ :href => "{{ post.url }}" } Readmore →
 {% endfor %}

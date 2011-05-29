@@ -17,5 +17,5 @@ plugins=(brew bundler cap gem git rails3 ruby ssh-agent)
 
 bc. echo color xoria256  > ~/.vimrc.local
 
-За да са достъпни 256 цвята трябва да се промени едно поле от текущия профил *iTerm2* &raquo;	 !{{site.baseurl}}/images/keys/menusym-command.gif! *I* &raquo;	*Terminal* &raquo; *Terminal Emulator* &raquo; *xterm-256color*
-!{{site.baseurl}}/images/posts/xterm-256color.jpg!
+За да са достъпни 256 цвята трябва да се промени едно поле от текущия профил *iTerm2* &raquo;	 !/images/keys/menusym-command.gif! *I* &raquo;	*Terminal* &raquo; *Terminal Emulator* &raquo; *xterm-256color*
+!/images/posts/xterm-256color.jpg!
