@@ -5,6 +5,6 @@ title: Дума напред и дума назад в Ubuntu Terminal със zs
 
 Темата от ["предишния пост":/2011/05/27/backwards-word-forwards-word-iterm2.html] този път FIX за Ubuntu Terminal
 
-bc. vim ~/.oh-my-zsh/custom/forward-backward-word.zsh
+bc. % vim ~/.oh-my-zsh/custom/forward-backward-word.zsh
 bindkey "^[[1;5C" forward-word
 bindkey "^[[1;5D" backward-word
