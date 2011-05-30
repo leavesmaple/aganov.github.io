@@ -10,7 +10,8 @@ title: iTerm 2, Oh My Zsh and Janus - Pure awesomeness
 
 Инструкции за инсталацията има в линковете горе. Единственото което съм Tweak-вал за собствени нужди и вкус беше да пусна няколко плъгина на *oh-my-zsh*
 
-bc. export ZSH_THEME="candy"
+bc. % vim ~/.zshrc
+export ZSH_THEME="candy"
 plugins=(brew bundler cap command-not-found gem node npm osx rails3 ruby rvm ssh-agent textmate)
 
 и да сменя темата на vim
