@@ -1,0 +1,7 @@
+--- 
+title: Mac OS X Apps I use
+layout: post
+---
+["Path Finder 5":http://www.cocoatech.com/] - Extended file browser
+["Xee":http://wakaba.c3.cx/s/apps/xee] - Fast and convenient image viewer
+["Paragon NTFS for Mac":http://www.paragon-software.com/home/ntfs-mac/] - Повече информация ["тук":/2011/05/22/mac-os-ntfs.html]
