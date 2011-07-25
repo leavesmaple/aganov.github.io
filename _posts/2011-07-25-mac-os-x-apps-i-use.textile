@@ -2,6 +2,13 @@
 title: Mac OS X Apps I use
 layout: post
 ---
-["Path Finder 5":http://www.cocoatech.com/] - Extended file browser
-["Xee":http://wakaba.c3.cx/s/apps/xee] - Fast and convenient image viewer
+["Path Finder 5":http://www.cocoatech.com/] - Разширен файлов браузър с богати възможности
+["Xee":http://wakaba.c3.cx/s/apps/xee] - Бърз image viewer
+["Springy":http://www.springyarchiver.com/] - Преглед на архиви без да е нужно разархивиране както и други полезни функции
+["MPlayer OSX Extended":http://www.mplayerosx.ch/] - Тъй като VLC не ми е точно по вкуса, използвам MPlayer
+["TextMate":http://macromates.com/] - За къде без любимия редактор
+["AppCleaner":http://www.freemacsoft.net/] - Лек и удобен инструмент за изтриване на програмки заедно със junk папките им ;)
+["SmartGit":http://www.syntevo.com/smartgit/index.html] - Любимият ми Git GUI
+["iTerm 2":http://www.iterm2.com/] - По-добрият терминал за Mac OS. Още инфо ["тук":/2011/05/21/iterm2-zsh-janus.html]
+
 ["Paragon NTFS for Mac":http://www.paragon-software.com/home/ntfs-mac/] - Повече информация ["тук":/2011/05/22/mac-os-ntfs.html]
