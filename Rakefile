@@ -10,7 +10,6 @@ task :post do
 --- 
 title: #{title}
 layout: post
-tags:
 ---
     EOF
   end
